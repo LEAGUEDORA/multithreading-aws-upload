@@ -30,7 +30,7 @@ def start_uploading(file_names: List):
             except Exception as e:
                 print(e, i)
         else:
-            print(f"{i} not in the storage, or does not end with .opus")
+            print(f"{i} not in the storage")
     print("Finished Uploading")
 
 threads = []
