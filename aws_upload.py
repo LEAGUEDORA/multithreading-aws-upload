@@ -31,7 +31,7 @@ def start_uploading(file_names: List):
                 print(e, i)
         else:
             print(f"{i} not in the storage")
-    print("Finished Uploading")
+    print("Finished Uploading files")
 
 threads = []
 for i in range(0, NUMBER_THREADS):
